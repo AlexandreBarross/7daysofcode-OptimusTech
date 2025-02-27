@@ -1,0 +1,32 @@
+@import url(header.css);
+@import url(/styles/aboutus.css);
+@import url(/styles/metricas.css);
+@import url(/styles/recrutamento.css);
+@import url(/styles/vagas.css);
+@import url(/styles/depoimentos.css);
+@import url(/styles/formulário.css);
+
+:root{
+    --cinza-logo:#3A404E;
+    --cinza-titulo:#101828;
+    --cinza-texto:#667085;
+    --fonte-principal: "Inter", serif;
+    --vermelho:#8E2424;
+    --branco:#FFFFFF;
+    --cinza-fundo:rgba(142, 36, 36, 0.05);
+    --cinza-borda:#EAECF0;
+    --cinza-depoimentos:rgba(195, 25, 25, 0.03);
+    --cinza-fundo-formulario:#F9FAFB;
+    --cinza-borda-placeholder:#D0D5DD;
+    --cinza-box: rgba(16, 24, 40, 0.05);
+}
+
+body{
+    font-family: var(--fonte-principal);
+    background-color: var(--branco);
+    font-size: 16px;
+    color: var(--cinza-texto);
+    font-weight: 500;
+    width: 100%;
+    height: 100vh;
+}

@@ -1,0 +1,49 @@
+.vagas{
+    display: flex;
+    align-items: flex-start;
+    width: 80%;
+    flex-direction: column;
+    padding: 0 2rem;
+    align-content: stretch;
+    margin: 0 auto;
+}
+.vagas__container{
+    display: flex;
+    flex-direction: column;
+    padding: 24px 24px 28px 24px;
+    border: 1px solid var(--cinza-borda);
+    border-radius: 1.5rem;
+    align-items: flex-start;
+    margin:0 auto;
+    margin-top: 1.5rem;
+    width: 60%;
+}
+
+/*acetar essa bomba aqui amanhã*/
+.vagas__titulo{
+   display: flex;
+   font-size: 1.25rem;
+   color: var(--cinza-titulo);
+   width: 60%;
+   justify-content: flex-start;
+   margin: 0 auto;
+   margin-top: 32px;;
+   padding-right: 36px;
+   
+   
+    
+}
+
+.vagas__cargo{
+    display: flex;
+    margin-bottom: 2rem;
+    font-size: 18px;
+    color: var(--cinza-titulo);
+}
+
+.vagas__informacoes{
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: row;
+    align-items: center;
+}
