@@ -2,7 +2,7 @@ Projeto desenvolvido durante o desafio 7DaysOfCode, proposto no fim da formaçã
 
 Apenas a versão Web está disponível.
 
-![image]()
+![image](https://github.com/AlexandreBarross/7daysofcode-OptimusTech/blob/main/img/readmeIMG.JPG?raw=true)
 
 ## Ferramentas utilizadas:
 * HTML
