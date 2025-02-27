@@ -1,38 +1,45 @@
-.metricas{
+.metricas {
     display: flex;
+padding-bottom: 96px;
+align-items: center;
 }
 
-.metricas__dados{
+.metricas__dados {
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 4em;
     padding: 0 2em;
-    margin: 0 3em;
+    margin: 0 auto;
+    width: 80%;
 }
 
-.metricas__dados-itens{
+.metricas__dados-itens {
     display: flex;
     flex-direction: column;
-    align-items: justify;
+    width: 75%;
 }
 
-.metricas__dados-numeros{
+.metricas__dados-numeros {
     font-size: 3.75em;
     color: var(--vermelho);
     font-weight: 600;
     margin-bottom: 0.25em;
+  
 }
 
 
 
-.metricas__dados-area{
+.metricas__dados-area {
     font-size: 1.12em;
     color: var(--cinza-titulo);
     padding-bottom: 0.5em;
+    line-height: 28px;
 }
 
-.metricas__dados-texto{
+.metricas__dados-texto {
     color: var(--cinza-texto);
     font-weight: 400;
+    line-height: 24px;
+    align-self: stretch;
 }
